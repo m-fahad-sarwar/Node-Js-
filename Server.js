@@ -2,7 +2,7 @@ const express = require("express");
 var bodyParser = require("body-parser");
 require('dotenv').config();
 
-const port = 3000
+const port = 5000
 const app = express();
 const TaskRoutes = require('./src/components/tasks/TaskRoutes');
 const setupDB = require("./src/config/Db");
